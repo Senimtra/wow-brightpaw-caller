@@ -1,0 +1,7 @@
+## Interface: 100207
+## Title: PET-caller
+## Notes: Summon Brightpaw when mounted on Mystic Runesaber.
+## Author: Senimtra
+## Version: 1.0
+
+PET-caller.lua
