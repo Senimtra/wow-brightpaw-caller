@@ -1,3 +1,5 @@
+<img src="./Image.png" alt="Brightpaw" width="500" />
+
 # BRIGHTPAW-caller
 
 💜 **Brightpaw, always by your side.**

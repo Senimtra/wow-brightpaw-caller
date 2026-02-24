@@ -1,4 +1,4 @@
-## Interface: 100207
+## Interface: 120001
 ## Title: brightpaw-caller
 ## Notes: Summon Brightpaw when mounted on Mystic Runesaber.
 ## Author: Senimtra
