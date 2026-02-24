@@ -1,4 +1,4 @@
--- PET-caller: summon Brightpaw whenever I mount Mystic Runesaber.
+-- brightpaw-caller: summon Brightpaw whenever I mount Mystic Runesaber.
 
 local frame = CreateFrame("Frame") -- Create a hidden frame to receive events.
 frame:RegisterEvent("PLAYER_ENTERING_WORLD") -- Register the login/reload event.
@@ -106,7 +106,7 @@ frame:SetScript("OnEvent", function(_, event, ...) -- Define the event handler.
         if fired then return end -- Avoid running twice.
         fired = true -- Mark the event as handled.
         targetPetGUID = findBrightpawGUID() -- Cache Brightpaw's GUID early.
-        DEFAULT_CHAT_FRAME:AddMessage("|cff8f3fffPET-caller|r loaded v1.0") -- Print the load message.
+        DEFAULT_CHAT_FRAME:AddMessage("|cff8f3fffbrightpaw-caller|r loaded v1.0") -- Print the load message.
         return -- Finish this event.
     end -- End the login branch.
 
@@ -136,3 +136,4 @@ frame:SetScript("OnEvent", function(_, event, ...) -- Define the event handler.
         return -- Finish this event.
     end -- End the movement branch.
 end) -- Finish the event handler.
+
